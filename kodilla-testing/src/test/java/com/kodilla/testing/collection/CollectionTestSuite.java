@@ -1,27 +1,68 @@
 package com.kodilla.testing.collection;
 
-import java.lang.*;
-import java.util.*;
+import org.junit.jupiter.api.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class CollectionTestSuite {
 
-        public static void main(String[] args) throws java.lang.Exception {
-
-            Random theGenerator = new Random();
-            final int NUM_TASKS = (50);
-            String chr = "a";
-            Deque<String> taskQueue1 = new ArrayDeque<>();
-
-            for (int i = 0; i < NUM_TASKS; i++) {
-                taskQueue1.offer(chr.repeat (theGenerator.nextInt(50) + 1));
-            }
-
-            OddNumbersExterminator taskExecutor = new OddNumbersExterminator();
-            taskExecutor.executeTasks(taskQueue1);
-
-            System.out.println("Even:");
-            System.out.println(taskExecutor.even);
-            System.out.println("Odd:");
-            System.out.println(taskExecutor.odd);
-        }
+    private static OddNumbersExterminator oddNumbersExterminator;
+    @BeforeEach
+    public void before(){
+        System.out.println("Test Case: begin");
     }
+
+    @AfterEach
+    public void after(){
+        System.out.println("Test Case: end");
+    }
+
+    @BeforeAll
+    public static void beforeClass(){
+        oddNumbersExterminator = new OddNumbersExterminator();
+    }
+
+    @DisplayName("when create OddNumbersExterminator with emptyArrayList, " +
+            "then OddNumbersExterminator should return no numbers"
+    )
+
+    @Test
+    public void testOddNumbersExterminatorEmptyList(){
+        //Given
+        ArrayList<Integer> emptyList = new ArrayList<>();
+        //When
+        List<Integer> resultList = oddNumbersExterminator.exterminate(emptyList);
+        System.out.println("Testing empty list");
+        //Then
+        Assertions.assertEquals(emptyList, resultList);
+    }
+
+    @DisplayName("when create OddNumbersExterminator with normalArrayList, " +
+            "then normalArrayList should return list of numbers"
+    )
+
+    @Test
+    public void testOddNumbersExterminatorNormalList(){
+        //Given
+        ArrayList<Integer> normalList = new ArrayList<>();
+        normalList.add(1);
+        normalList.add(2);
+        normalList.add(5);
+        normalList.add(2);
+        normalList.add(1);
+        normalList.add(4);
+        normalList.add(10);
+
+        ArrayList<Integer>expectedResultList = new ArrayList<>();
+        expectedResultList.add(2);
+        expectedResultList.add(2);
+        expectedResultList.add(4);
+        expectedResultList.add(10);
+        //When
+        List<Integer> resultList = oddNumbersExterminator.exterminate(normalList);
+        System.out.println("Testing normal list");
+        //Then
+        Assertions.assertEquals(expectedResultList, resultList);
+    }
+}
