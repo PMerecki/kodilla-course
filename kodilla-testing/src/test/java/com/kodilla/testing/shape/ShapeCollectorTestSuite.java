@@ -51,7 +51,7 @@ public class ShapeCollectorTestSuite {
 
             //Given
             ShapeCollector shapeCollector = new ShapeCollector();
-            Shape shape = new Square(4);
+            Shape shape = new Circle(4);
             shapeCollector.addFigure(shape);
             //When
             boolean result = shapeCollector.removeFigure(shape);
@@ -80,7 +80,7 @@ public class ShapeCollectorTestSuite {
 
             //Given
             ShapeCollector shapeCollector = new ShapeCollector();
-            Shape shape = new Square(4);
+            Shape shape = new Triangle(3, 2, 5);
             shapeCollector.addFigure(shape);
             ArrayList<Shape> shapeList = new ArrayList<>();
             shapeList.add(shape);

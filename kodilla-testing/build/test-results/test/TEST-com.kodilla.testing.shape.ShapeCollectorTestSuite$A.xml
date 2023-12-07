@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tests for existing geometrical figures" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-12-07T22:02:57" hostname="DESKTOP-M33CNEF" time="0.06">
+  <properties/>
+  <testcase name="Show figures test" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite$A" time="0.006"/>
+  <testcase name="Get number of existing figure test" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite$A" time="0.012"/>
+  <testcase name="Remove figure test" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite$A" time="0.023"/>
+  <testcase name="Add figure test" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite$A" time="0.006"/>
+  <system-out><![CDATA[Preparing to execute test #3
+Preparing to execute test #4
+Preparing to execute test #5
+Preparing to execute test #6
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
