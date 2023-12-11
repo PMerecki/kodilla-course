@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.testing.weather.mock.WeatherForecastTestSuite" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-12-11T17:53:36" hostname="DESKTOP-M33CNEF" time="1.423">
+  <properties/>
+  <testcase name="Median of given temperatures test" classname="com.kodilla.testing.weather.mock.WeatherForecastTestSuite" time="1.398"/>
+  <testcase name="Average of given temperatures test" classname="com.kodilla.testing.weather.mock.WeatherForecastTestSuite" time="0.011"/>
+  <testcase name="Temperatures test" classname="com.kodilla.testing.weather.mock.WeatherForecastTestSuite" time="0.005"/>
+  <system-out><![CDATA[This is the beginning of tests.
+Preparing to execute test #1
+Preparing to execute test #2
+Preparing to execute test #3
+All tests are finished.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
