@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Library User Tests" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-12-13T19:03:53" hostname="DESKTOP-M33CNEF" time="1.916">
+  <properties/>
+  <testcase name="Test List Books In Hands Of No Books" classname="com.kodilla.testing.library.BookDirectoryTestSuite$B" time="1.741"/>
+  <testcase name="Test List Books In Hands Of One Book" classname="com.kodilla.testing.library.BookDirectoryTestSuite$B" time="0.126"/>
+  <testcase name="Test List Books In Hands Of Five Books" classname="com.kodilla.testing.library.BookDirectoryTestSuite$B" time="0.027"/>
+  <system-out><![CDATA[Preparing to execute test #1
+Preparing to execute test #2
+Preparing to execute test #3
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
