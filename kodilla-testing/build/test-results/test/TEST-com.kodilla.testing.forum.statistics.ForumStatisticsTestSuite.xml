@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" tests="8" skipped="0" failures="0" errors="0" timestamp="2023-12-14T21:49:24" hostname="DESKTOP-M33CNEF" time="1.612">
+  <properties/>
+  <testcase name="Test Calculate Adv Statistics With Zero Posts" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="1.455"/>
+  <testcase name="Test Calculate Adv Statistics With Thousand Posts" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.022"/>
+  <testcase name="Test Calculate Adv Statistics With Zero Comments" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.015"/>
+  <testcase name="Test Calculate Adv Statistics Less Comments Than Posts" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.011"/>
+  <testcase name="Test Calculate Adv Statistics More Comments Than Posts" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.008"/>
+  <testcase name="Test Calculate Adv Statistics With Zero Users" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.006"/>
+  <testcase name="Test Calculate Adv Statistics With Hundred Users" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.017"/>
+  <testcase name="Test Show Statistics" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.025"/>
+  <system-out><![CDATA[This is the beginning of tests.
+Preparing to execute test #1
+Preparing to execute test #2
+Preparing to execute test #3
+Preparing to execute test #4
+Preparing to execute test #5
+Preparing to execute test #6
+Preparing to execute test #7
+Preparing to execute test #8
+Forum advanced statistics: 
+Users quantity: 10
+Posts quantity: 20
+Comments quantity: 40
+Posts average per user: 2.0
+Comments average per user: 4.0
+Comments average per post: 2.0
+All tests are finished.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
