@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Board Test Suite" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-23T13:55:30" hostname="DESKTOP-M33CNEF" time="0.037">
+  <properties/>
+  <testcase name="Test Add Task List Average Working On Task" classname="com.kodilla.stream.portfolio.BoardTestSuite" time="0.037"/>
+  <system-out><![CDATA[This is the beginning of tests.
+Preparing to execute test #1
+All tests are finished.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
