@@ -40,7 +40,7 @@ public class App {
 
         try {
             boolean existWarsawDubai = flightSearch.findFlight(WarsawDubai);
-            System.out.println("Flight Tokio - London: " + existWarsawDubai);
+            System.out.println("Flight Warsaw - Dubai: " + existWarsawDubai);
         } catch (RouteNotFoundException e) {
             System.out.println("Airport does not exist!");
         }
