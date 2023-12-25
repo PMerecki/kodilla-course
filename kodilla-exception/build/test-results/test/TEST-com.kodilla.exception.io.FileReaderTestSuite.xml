@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.exception.io.FileReaderTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-25T10:21:21" hostname="DESKTOP-M33CNEF" time="0.185">
+  <properties/>
+  <testcase name="testReadFileWithName()" classname="com.kodilla.exception.io.FileReaderTestSuite" time="0.185"/>
+  <system-out><![CDATA[I am gonna be here... always!
+I am gonna be here... always!
+Janusz
+Helena
+Grazyna
+Sebastian
+I am gonna be here... always!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

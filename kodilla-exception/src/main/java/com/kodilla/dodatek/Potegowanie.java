@@ -29,7 +29,7 @@ public class Potegowanie {
     public static void main(String[] args) {
         Potegowanie potegowanie = new Potegowanie();
         try {
-            int result = Potegowanie.potega(2, 5);
+            int result = Potegowanie.potega(11, 2);
             System.out.println(result);
         } catch (ArithmeticException e) {
             System.out.println(1);
