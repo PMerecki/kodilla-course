@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.good.patterns.flightsSearcher.FightsSearcherTestSuite" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-12-28T16:51:31" hostname="DESKTOP-M33CNEF" time="0.192">
+<testsuite name="com.kodilla.good.patterns.flightsSearcher.FightsSearcherTestSuite" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-12-28T16:57:50" hostname="DESKTOP-M33CNEF" time="0.214">
   <properties/>
-  <testcase name="No Available Flights From Test" classname="com.kodilla.good.patterns.flightsSearcher.FightsSearcherTestSuite" time="0.11"/>
-  <testcase name="No Available Flights To Test" classname="com.kodilla.good.patterns.flightsSearcher.FightsSearcherTestSuite" time="0.015"/>
-  <testcase name="Available Connecting Flights Test" classname="com.kodilla.good.patterns.flightsSearcher.FightsSearcherTestSuite" time="0.022"/>
+  <testcase name="No Available Flights From Test" classname="com.kodilla.good.patterns.flightsSearcher.FightsSearcherTestSuite" time="0.099"/>
+  <testcase name="No Available Flights To Test" classname="com.kodilla.good.patterns.flightsSearcher.FightsSearcherTestSuite" time="0.023"/>
+  <testcase name="Available Connecting Flights Test" classname="com.kodilla.good.patterns.flightsSearcher.FightsSearcherTestSuite" time="0.038"/>
   <testcase name="Available Flights From Test" classname="com.kodilla.good.patterns.flightsSearcher.FightsSearcherTestSuite" time="0.008"/>
-  <testcase name="Available Flights To Test" classname="com.kodilla.good.patterns.flightsSearcher.FightsSearcherTestSuite" time="0.008"/>
-  <testcase name="No Available Connecting Flights Test" classname="com.kodilla.good.patterns.flightsSearcher.FightsSearcherTestSuite" time="0.007"/>
+  <testcase name="Available Flights To Test" classname="com.kodilla.good.patterns.flightsSearcher.FightsSearcherTestSuite" time="0.01"/>
+  <testcase name="No Available Connecting Flights Test" classname="com.kodilla.good.patterns.flightsSearcher.FightsSearcherTestSuite" time="0.006"/>
   <system-out><![CDATA[Test Suite: begin
 Test Case: begin
 Test Case: end
