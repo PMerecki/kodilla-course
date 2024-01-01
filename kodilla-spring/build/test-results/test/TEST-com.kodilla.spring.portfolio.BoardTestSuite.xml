@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.spring.portfolio.BoardTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-01T14:39:55" hostname="DESKTOP-M33CNEF" time="1.098">
+  <properties/>
+  <testcase name="testTaskAdd()" classname="com.kodilla.spring.portfolio.BoardTestSuite" time="1.098"/>
+  <system-out><![CDATA[15:39:54.230 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.kodilla.spring.portfolio.BoardTestSuite]: BoardTestSuite does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:39:54.408 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.kodilla.KodillaSpringApplication for test class com.kodilla.spring.portfolio.BoardTestSuite
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.7)
+
+2024-01-01T15:39:55.093+01:00  INFO 14520 --- [    Test worker] c.k.spring.portfolio.BoardTestSuite      : Starting BoardTestSuite using Java 17.0.9 with PID 14520 (started by Piotr in C:\dev\kodilla-course\kodilla-spring)
+2024-01-01T15:39:55.095+01:00  INFO 14520 --- [    Test worker] c.k.spring.portfolio.BoardTestSuite      : No active profile set, falling back to 1 default profile: "default"
+2024-01-01T15:39:55.820+01:00  INFO 14520 --- [    Test worker] c.k.spring.portfolio.BoardTestSuite      : Started BoardTestSuite in 1.138 seconds (process running for 2.777)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
