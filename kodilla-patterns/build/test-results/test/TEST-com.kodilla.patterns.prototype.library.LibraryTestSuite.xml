@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.patterns.prototype.library.LibraryTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-06T19:12:39" hostname="DESKTOP-M33CNEF" time="0.052">
+  <properties/>
+  <testcase name="testGetBooks()" classname="com.kodilla.patterns.prototype.library.LibraryTestSuite" time="0.052"/>
+  <system-out><![CDATA[Books [my Library]
+Book {title='Steve Jobs', author='Walter Issacson', publicationDate=2011-10-24}
+Book {title='Promise Land', author='Barack Obama', publicationDate=2020-11-17}
+Book {title='One Flew Over the Cuckoo's Nest', author='Ken Kesey', publicationDate=1962-02-01}
+
+Books [my Library - shallow copy]
+Book {title='Steve Jobs', author='Walter Issacson', publicationDate=2011-10-24}
+Book {title='Promise Land', author='Barack Obama', publicationDate=2020-11-17}
+Book {title='One Flew Over the Cuckoo's Nest', author='Ken Kesey', publicationDate=1962-02-01}
+
+Books [my Library - deep copy]
+Book {title='Steve Jobs', author='Walter Issacson', publicationDate=2011-10-24}
+Book {title='Michael Jordan: The Life', author='Roland Lazenby', publicationDate=2014-05-06}
+Book {title='One Flew Over the Cuckoo's Nest', author='Ken Kesey', publicationDate=1962-02-01}
+Book {title='Promise Land', author='Barack Obama', publicationDate=2020-11-17}
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
