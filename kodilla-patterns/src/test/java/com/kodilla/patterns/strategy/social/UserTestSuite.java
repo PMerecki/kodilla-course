@@ -10,17 +10,17 @@ public class UserTestSuite {
     public void testDefaultSharingStrategies() {
 
         //Given
-        User millennials = new Millenials("Nancy");
+        User millennials = new Millenials("Arthur");
         User yGeneration = new YGeneration("George");
-        User zGeneration = new ZGeneration("Zack");
+        User zGeneration = new ZGeneration("Abigail");
 
         //When
         String snapchat = millennials.sharePost();
-        System.out.println("Millennials shares on: " + snapchat);
+        System.out.println(millennials.getUserName() + " shares on: " + snapchat);
         String twitter = yGeneration.sharePost();
-        System.out.println("YGeneration shares on: " + twitter);
+        System.out.println(yGeneration.getUserName() + " shares on: " + twitter);
         String facebook = zGeneration.sharePost();
-        System.out.println("ZGeneration shares on: " + facebook);
+        System.out.println(zGeneration.getUserName() + " shares on: " + facebook);
 
         //Then
         Assertions.assertEquals("Snapchat", snapchat);
@@ -32,12 +32,12 @@ public class UserTestSuite {
     public void testIndividualSharingStrategy() {
 
         //Given
-        User millennials = new Millenials("Nancy");
+        User millennials = new Millenials("Javier");
         millennials.setSocialPublisher(new FacebookPublisher());
 
         //When
         String facebook = millennials.sharePost();
-        System.out.println("Millenials shares on: " + facebook);
+        System.out.println(millennials.getUserName() + " shares on: " + facebook);
 
         //Then
         Assertions.assertEquals("Facebook", facebook);
