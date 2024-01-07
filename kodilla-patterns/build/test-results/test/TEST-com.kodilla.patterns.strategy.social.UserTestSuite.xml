@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.patterns.strategy.social.UserTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-01-07T11:38:00" hostname="DESKTOP-M33CNEF" time="0.038">
+  <properties/>
+  <testcase name="testDefaultSharingStrategies()" classname="com.kodilla.patterns.strategy.social.UserTestSuite" time="0.033"/>
+  <testcase name="testIndividualSharingStrategy()" classname="com.kodilla.patterns.strategy.social.UserTestSuite" time="0.003"/>
+  <system-out><![CDATA[Millennials shares on: Snapchat
+YGeneration shares on: Twitter
+ZGeneration shares on: Facebook
+Millenials shares on: Facebook
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

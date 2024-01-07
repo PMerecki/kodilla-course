@@ -1,16 +1,4 @@
-Books [my Library]
-PBook {title='Steve Jobs', author='Walter Issacson', publicationDate=2011-10-24}
-OBook {title='Promise Land', author='Barack Obama', publicationDate=2020-11-17}
-_Book {title='One Flew Over the Cuckoo's Nest', author='Ken Kesey', publicationDate=1962-02-01}
-
-"Books [my Library - shallow copy]
-PBook {title='Steve Jobs', author='Walter Issacson', publicationDate=2011-10-24}
-OBook {title='Promise Land', author='Barack Obama', publicationDate=2020-11-17}
-_Book {title='One Flew Over the Cuckoo's Nest', author='Ken Kesey', publicationDate=1962-02-01}
-
-Books [my Library - deep copy]
-PBook {title='Steve Jobs', author='Walter Issacson', publicationDate=2011-10-24}
-]Book {title='Michael Jordan: The Life', author='Roland Lazenby', publicationDate=2014-05-06}
-_Book {title='One Flew Over the Cuckoo's Nest', author='Ken Kesey', publicationDate=1962-02-01}
-OBook {title='Promise Land', author='Barack Obama', publicationDate=2020-11-17}
-
+!Millennials shares on: Snapchat
+ YGeneration shares on: Twitter
+!ZGeneration shares on: Facebook
+ Millenials shares on: Facebook
