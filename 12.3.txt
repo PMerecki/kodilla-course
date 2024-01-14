@@ -1,0 +1,35 @@
+CREATE TABLE ISSUESLISTS (
+                             ID SERIAL PRIMARY KEY,
+                             NAME VARCHAR(100)
+);
+
+INSERT INTO ISSUESLISTS (ID, NAME) VALUES (1, 'ToDo');
+INSERT INTO ISSUESLISTS (ID, NAME) VALUES (2, 'In progress');
+INSERT INTO ISSUESLISTS (ID, NAME) VALUES (3, 'Done');
+
+CREATE TABLE ISSUES (
+                        ID SERIAL PRIMARY KEY,
+                        ISSUESLIST_ID BIGINT UNSIGNED NOT NULL,
+                        SUMMARY VARCHAR(100),
+                        DESCRIPTION VARCHAR(1024),
+                        USER_ID_ASSIGNEDTO INT
+);
+
+INSERT INTO ISSUES (ISSUESLIST_ID, SUMMARY, DESCRIPTION, USER_ID_ASSIGNEDTO) VALUES
+                                                                                     ('1', 'To Do', 'Zadanie 1 - To Do', '1'),
+                                                                                     ('1', 'To Do', 'Zadanie 2 - To Do', '2'),
+                                                                                     ('1', 'To Do', 'Zadanie 3 - To Do', '3'),
+                                                                                     ('1', 'To Do', 'Zadanie 4 - To Do', '4'),
+                                                                                     ('1', 'To Do', 'Zadanie 5 - To Do', '5'),
+
+                                                                                     ('2', 'In Progress', 'Zadanie 1 - In Progress', '1'),
+                                                                                     ('2', 'In Progress', 'Zadanie 2 - In Progress', '2'),
+                                                                                     ('2', 'In Progress', 'Zadanie 3 - In Progress', '3'),
+                                                                                     ('2', 'In Progress', 'Zadanie 4 - In Progress', '4'),
+                                                                                     ('2', 'In Progress', 'Zadanie 5 - In Progress', '5'),
+
+                                                                                     ('3', 'Done', 'Zadanie 1 - Done', '1'),
+                                                                                     ('3', 'Done', 'Zadanie 2 - Done', '2'),
+                                                                                     ('3', 'Done', 'Zadanie 3 - Done', '3'),
+                                                                                     ('3', 'Done', 'Zadanie 4 - Done', '4'),
+                                                                                     ('3', 'Done', 'Zadanie 5 - Done', '5');
