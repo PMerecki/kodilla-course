@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public final class SimpleInvoice {
-
     private final List<SimpleItem> items = new ArrayList<>();
 
     public void addItem(SimpleItem item) {

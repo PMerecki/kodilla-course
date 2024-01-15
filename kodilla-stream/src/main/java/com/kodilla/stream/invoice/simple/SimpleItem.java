@@ -1,11 +1,10 @@
 package com.kodilla.stream.invoice.simple;
 
 public final class SimpleItem {
-
     private final SimpleProduct product;
     private final double quantity;
 
-    public SimpleItem(final SimpleProduct product, final double quantity) {
+    public SimpleItem(SimpleProduct product, double quantity) {
         this.product = product;
         this.quantity = quantity;
     }
