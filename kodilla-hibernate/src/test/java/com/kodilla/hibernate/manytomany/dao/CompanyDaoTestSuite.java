@@ -5,6 +5,9 @@ import com.kodilla.hibernate.manytomany.Employee;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -13,6 +16,9 @@ class CompanyDaoTestSuite {
 
     @Autowired
     private CompanyDao companyDao;
+
+    @Autowired
+    private EmployeeDao employeeDao;
 
     @Test
     void testSaveManyToMany() {
@@ -58,5 +64,34 @@ class CompanyDaoTestSuite {
         } catch (Exception e) {
             //do nothing
         }
+    }
+    @Test
+    @Transactional
+    void testNamedQueryEmployee() {
+        //Given
+        Employee johnSmith = new Employee("John", "Smith");
+        employeeDao.save(johnSmith);
+        //When
+        List<Employee> retrievedEmployees = employeeDao.retrieveEmployeesWithLastname("Smith");
+        //Then
+        assertEquals(1, retrievedEmployees.size());
+        assertEquals("Smith", retrievedEmployees.get(0).getLastname());
+        //CleanUp
+        employeeDao.deleteAll();
+    }
+
+    @Test
+    @Transactional
+    void testNamedNativeQueryCompany() {
+        //Given
+        Company softwareMachine = new Company("Software Machine");
+        companyDao.save(softwareMachine);
+        //When
+        List<Company> retrievedCompanies = companyDao.retrieveCompaniesWithNameStarting("Sof");
+        //Then
+        assertEquals(1, retrievedCompanies.size());
+        assertEquals("Software Machine", retrievedCompanies.get(0).getName());
+        //CleanUp
+        companyDao.deleteAll();
     }
 }
