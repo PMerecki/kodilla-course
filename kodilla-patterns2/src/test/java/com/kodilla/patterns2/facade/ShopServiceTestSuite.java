@@ -16,7 +16,7 @@ class ShopServiceTestSuite {
     private OrderFacade orderFacade;
 
     @Autowired
-    OrderFacadeLoggingAspect orderFacadeLoggingAspect;
+    private OrderFacadeLoggingAspect orderFacadeLoggingAspect;
 
     @Test
     void testShopServiceSubmitOrder() {
