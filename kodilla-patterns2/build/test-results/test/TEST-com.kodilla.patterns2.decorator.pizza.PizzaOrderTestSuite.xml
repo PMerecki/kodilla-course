@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.patterns2.decorator.pizza.PizzaOrderTestSuite" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-02-25T11:33:15" hostname="DESKTOP-M33CNEF" time="0.045">
+  <properties/>
+  <testcase name="testBasicPizzaWithExtraCheese()" classname="com.kodilla.patterns2.decorator.pizza.PizzaOrderTestSuite" time="0.029"/>
+  <testcase name="testBasicPizza()" classname="com.kodilla.patterns2.decorator.pizza.PizzaOrderTestSuite" time="0.002"/>
+  <testcase name="testBasicPizzaWithAdditive()" classname="com.kodilla.patterns2.decorator.pizza.PizzaOrderTestSuite" time="0.005"/>
+  <testcase name="testBasicPizzaWithAdditiveAndExtraCheese()" classname="com.kodilla.patterns2.decorator.pizza.PizzaOrderTestSuite" time="0.003"/>
+  <system-out><![CDATA[Basic pizza with extra cheese:
+Description: Basic pizza (dough, tomato sauce, cheese), extra cheese
+Cost: 18
+Basic pizza:
+Description: Basic pizza (dough, tomato sauce, cheese)
+Cost: 15
+Pizza with additive:
+Description: Basic pizza (dough, tomato sauce, cheese), extra additive
+Cost: 20
+Basic pizza with additive and extra cheese:
+Description: Basic pizza (dough, tomato sauce, cheese), extra additive, extra cheese
+Cost: 23
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
