@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.patterns2.adapter.bookclassifier.MedianAdapterTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-02-25T17:21:54" hostname="DESKTOP-M33CNEF" time="0.037">
+  <properties/>
+  <testcase name="publicationYearMedianTest()" classname="com.kodilla.patterns2.adapter.bookclassifier.MedianAdapterTestSuite" time="0.037"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
