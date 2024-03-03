@@ -1,21 +1,0 @@
-1, John, Smith
-2, Zachary, Lee
-3, Stephanie, Kovalsky
-4, Thomas, Landgren
-5, John, Thomson
-Zachary, Lee, 2
-John, Smith, To Do
-Zachary, Lee, To Do
-Stephanie, Kovalsky, To Do
-Thomas, Landgren, To Do
-John, Thomson, To Do
-John, Smith, In Progress
-Zachary, Lee, In Progress
-"Stephanie, Kovalsky, In Progress
-Thomas, Landgren, In Progress
-John, Thomson, In Progress
-John, Smith, Done
-Zachary, Lee, Done
-Stephanie, Kovalsky, Done
-Thomas, Landgren, Done
-John, Thomson, Done
