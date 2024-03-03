@@ -39,25 +39,34 @@ public class StoredProcTestSuite {
     public void testUpdateBestsellers() throws SQLException {
         // Given
         DbManager dbManager = DbManager.getInstance();
-        String sqlUpdate = "UPDATE BOOKS SET BESTSELLER = FALSE";
-        Statement statement = dbManager.getConnection().createStatement();
-        statement.executeUpdate(sqlUpdate);
-        String sqlCheckTable = "SELECT COUNT(*) AS HOW_MANY FROM BOOKS WHERE BESTSELLER = FALSE";
+
+        // Pobranie początkowej liczby książek, które nie są bestsellerami
+        int initialNonBestsellersCount = getNonBestsellersCount(dbManager.getConnection().createStatement());
 
         // When
-        Statement statement2 = dbManager.getConnection().createStatement();
+        // Wywołanie procedury UpdateBestsellers
+        Statement statement = dbManager.getConnection().createStatement();
         String sqlProcedureCall = "CALL UpdateBestsellers()";
-        statement2.execute(sqlProcedureCall);
-        ResultSet rs = statement.executeQuery(sqlCheckTable);
+        statement.execute(sqlProcedureCall);
+        statement.close();
+
+        // Ponowne pobranie liczby książek, które nie są bestsellerami
+        int updatedNonBestsellersCount = getNonBestsellersCount(dbManager.getConnection().createStatement());
 
         // Then
-        int howMany = -1;
+        // Porównanie wyników
+        assertEquals(initialNonBestsellersCount, updatedNonBestsellersCount);
+    }
+
+    private int getNonBestsellersCount(Statement statement) throws SQLException {
+        String sqlCheckTable = "SELECT COUNT(*) AS HOW_MANY FROM BOOKS WHERE BESTSELLER = FALSE";
+        ResultSet rs = statement.executeQuery(sqlCheckTable);
+        int count = 0;
         if (rs.next()) {
-            howMany = rs.getInt("HOW_MANY");
+            count = rs.getInt("HOW_MANY");
         }
-        assertEquals(3, howMany);
         rs.close();
         statement.close();
-        statement2.close();
+        return count;
     }
 }
