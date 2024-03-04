@@ -23,10 +23,10 @@ CREATE TABLE READERS_AUD (
                              NEW_FIRSTNAME VARCHAR(255),
                              OLD_LASTNAME VARCHAR(255),
                              NEW_LASTNAME VARCHAR(255),
-                             OLD_PESELID INT(11) NOT NULL,
-                             NEW_PESELID INT(11) NOT NULL,
-                             OLD_VIP_LEVEL VARCHAR(50),
-                             NEW_VIP_LEVEL VARCHAR(50),
+                             OLD_PESELID VARCHAR(11),
+                             NEW_PESELID VARCHAR(11),
+                             OLD_VIP_LEVEL VARCHAR(20),
+                             NEW_VIP_LEVEL VARCHAR(20),
                              PRIMARY KEY (EVENT_ID)
 );
 
