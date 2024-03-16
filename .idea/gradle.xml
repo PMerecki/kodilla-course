@@ -20,6 +20,7 @@
             <option value="$PROJECT_DIR$/kodilla-spring-web" />
             <option value="$PROJECT_DIR$/kodilla-stream" />
             <option value="$PROJECT_DIR$/kodilla-testing" />
+            <option value="$PROJECT_DIR$/kodilla-testing2" />
           </set>
         </option>
       </GradleProjectSettings>
