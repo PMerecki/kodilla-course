@@ -102,7 +102,7 @@ public class CrudAppTestSuite {
 
         Thread.sleep(10000);
 
-        driverTrello.findElement(By.id("password")).sendKeys("twoj_haslo");
+        driverTrello.findElement(By.id("password")).sendKeys("twoje_haslo");
         driverTrello.findElement(By.id("login-submit")).submit();
 
         Thread.sleep(10000);
