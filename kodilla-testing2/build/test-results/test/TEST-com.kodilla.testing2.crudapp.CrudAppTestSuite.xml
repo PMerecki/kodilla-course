@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.testing2.crudapp.CrudAppTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-17T12:43:38" hostname="DESKTOP-M33CNEF" time="65.879">
+  <properties/>
+  <testcase name="shouldCreateTrelloCard()" classname="com.kodilla.testing2.crudapp.CrudAppTestSuite" time="65.879"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[mar 17, 2024 1:43:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 122, returning the closest version; found: 121; Please update to a Selenium version that supports CDP version 122
+mar 17, 2024 1:44:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 122, returning the closest version; found: 121; Please update to a Selenium version that supports CDP version 122
+]]></system-err>
+</testsuite>
